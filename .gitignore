@@ -1,0 +1,55 @@
+# .NET build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+coverage/
+
+# IDE and user-specific files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs, dumps, captures and temporary evidence
+*.log
+*.dmp
+*.dump
+*.pcap
+*.pcapng
+*.etl
+*.tmp
+temp/
+tmp/
+
+# Secrets and private key material
+.env
+.env.*
+!.env.example
+**/secrets/
+*.pfx
+*.p12
+*.pvk
+*.key
+*.jwk
+*.token
+
+# Machine-local or environment-private configuration
+**/*.local.json
+**/appsettings.*.local.json
+**/portal.parameters.*.json
+!**/portal.parameters.*.example.json
+!**/portal.parameters.schema.json
+**/*.private.json
+**/*.internal.json
+**/*inventory*.private.*
+**/*topology*.private.*
+docs/private/
+docs/internal/
+
+# OS files
+Thumbs.db
+.DS_Store
