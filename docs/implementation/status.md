@@ -20,7 +20,7 @@ Schema version: 1
 - Phase status: Draft
 - Activation approval reference: <code>APP-P0.1-001</code>
 - Execution approval reference: NONE
-- Verified predecessor commit: <code>6b976b4</code> — initial repository commit
+- Verified predecessor commit: <code>0f5eaa8</code> — bootstrap baseline commit
 - Verification target: the complete bootstrap tree represented by the commit
   containing this status file; its commit hash is resolved from Git history
 - Environment touched: Repository documentation only
@@ -36,6 +36,8 @@ Schema version: 1
 - P0.1 accepted by the Project Owner under <code>APP-P0.1-001</code>.
 - Public repository constraints recorded.
 - Draft P0.2 packet activated for review without executing it.
+- هشت finding بازبینی PR شماره ۱ درباره Evidence، حریم خصوصی، وضعیت راهنما و
+  Gateهای P0.2 رفع و با دو بازبینی مستقل تأیید شد.
 
 ## In progress
 
@@ -79,3 +81,4 @@ environment values outside this Public repository.
 | EV-P01-004 | Documentation bootstrap validation | Diff, whitespace, secret, hash and scope scans | Local repository | PASS | docs/evidence/P0.1/README.md |
 | EV-P01-005 | P0.1 gate closure and controlled transition | Approval, state, hash, secret and scope scans | Local repository | PASS | docs/evidence/P0.1/README.md |
 | EV-P01-006 | Independent governance review | Lifecycle, approval, public-repository and authorization audit | Local repository | PASS | docs/evidence/P0.1/README.md |
+| EV-P01-007 | PR #1 review finding remediation | Hash, diff, secret, privacy, link, P0.2 gate and independent review checks | Local repository | PASS | docs/evidence/P0.1/README.md |
